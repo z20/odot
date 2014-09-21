@@ -1,4 +1,5 @@
 Odot::Application.routes.draw do
+  get "pages/home"
   resources :todo_lists do
     resources :todo_items do
       member do
